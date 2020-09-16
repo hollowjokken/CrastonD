@@ -5,4 +5,4 @@ const app = express();
 
 app.use(cors());
 app.use("/", router);
-app.listen(3000, () => console.log("HERE!!!"));
+app.listen(3000, () => console.log("Server is Runing!!!"));
